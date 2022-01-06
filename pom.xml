@@ -35,6 +35,13 @@
             <artifactId>postgresql</artifactId>
             <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>2.3.8</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.h2database</groupId>
