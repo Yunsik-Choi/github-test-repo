@@ -1,0 +1,44 @@
+name: Feature/Document Request Report
+description: Feature/Document request report
+title: "[Feature/Document]: "
+labels: ["Type:Feature/Document"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        문서 요구사항 레포트!
+  - type: dropdown
+    id: Domain
+    attributes:
+      label: Domain
+      description: 어떤 Domain에 관련된 Issue입니까?
+      options:
+        - User
+        - Board
+        - ETC
+    validations:
+      required: true
+  - type: textarea
+    id: 어떠한 문서가 필요한가요?
+    attributes:
+      label: 어떠한 문서가 필요한가요?
+      description: 어떠한 문서가 필요한가요?
+      placeholder: 어떠한 문서가 필요한가요!
+      value: "Projects Card도 생성해주세요!"
+    validations:
+      required: true
+  - type: textarea
+    id: 고려사항
+    attributes:
+      label: 고려사항
+      description: 고려해야 할 사항
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Projects Card
+      description: Project Card 생성하셨나요?
+      options:
+        - label: 네 생성했습니다.
+          required: true
