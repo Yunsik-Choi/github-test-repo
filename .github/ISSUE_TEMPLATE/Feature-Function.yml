@@ -1,7 +1,7 @@
 name: Feature/Function Request Report
 description: Feature/Function request report
 title: "[Feature/Function]: "
-labels: ["Type:Feature/Function"]
+labels: ["Type: Feature/Function","Status: To Do"]
 assignees:
   - octocat
 body:
@@ -34,6 +34,14 @@ body:
     attributes:
       label: 고려사항
       description: 개발시 고려해야 할 사항
+  - type: checkboxes
+    id: priority
+    attributes:
+      label: Priority Label Setting
+      description: Priority Label 지정하셨나요?
+      options:
+        - label: 네 Priority Label 지정했습니다.
+          required: true
   - type: checkboxes
     id: projects
     attributes:
