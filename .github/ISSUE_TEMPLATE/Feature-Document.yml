@@ -1,16 +1,16 @@
-name: Feature/Function Request Report
-description: Feature/Function request report
-title: "[Feature/Function]: "
-labels: ["Type:Feature/Function"]
+name: Feature/Document Request Report
+description: Feature/Document request report
+title: "[Feature/Document]: "
+labels: ["Type:Feature/Document"]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        ddd!
+        문서 요구사항 레포트!
   - type: dropdown
-    id: domain
+    id: Domain
     attributes:
       label: Domain
       description: 어떤 Domain에 관련된 Issue입니까?
@@ -21,11 +21,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-function
+    id: what-need
     attributes:
-      label: 어떠한 기능이 필요한가요?
-      description: 어떠한 기능이 필요한가요?
-      placeholder: 어떠한 기능이 필요한가요!
+      label: 어떠한 문서가 필요한가요?
+      description: 어떠한 문서가 필요한가요?
+      placeholder: 어떠한 문서가 필요한가요!
       value: "Projects Card도 생성해주세요!"
     validations:
       required: true
@@ -33,9 +33,9 @@ body:
     id: consideration
     attributes:
       label: 고려사항
-      description: 개발시 고려해야 할 사항
+      description: 고려해야 할 사항
   - type: checkboxes
-    id: terms
+    id: projects
     attributes:
       label: Projects Card
       description: Project Card 생성하셨나요?
