@@ -1,5 +1,5 @@
-name: Feature/Document Request Report
-description: Feature/Document request report
+name: Document Request Report
+description: Document request report
 title: "[Feature/Document]: "
 labels: ["Type: Feature/Document","Status: To Do"]
 assignees:

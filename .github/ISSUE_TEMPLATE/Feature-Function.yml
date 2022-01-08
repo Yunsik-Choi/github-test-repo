@@ -1,5 +1,5 @@
-name: Feature/Function Request Report
-description: Feature/Function request report
+name: Function Request Report
+description: Function request report
 title: "[Feature/Function]: "
 labels: ["Type: Feature/Function","Status: To Do"]
 assignees:
