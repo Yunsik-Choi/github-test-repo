@@ -13,7 +13,7 @@ body:
     id: Domain
     attributes:
       label: Domain
-      description: 어떤 Domain에 관련된 Issue입니까?
+      description: Issue?
       options:
         - User
         - Board
@@ -23,30 +23,30 @@ body:
   - type: textarea
     id: what-need
     attributes:
-      label: 어떠한 기능이 필요한가요?
-      description: 어떠한 기능이 필요한가요?
-      placeholder: 어떠한 기능이 필요한가요!
-      value: "Projects Card도 생성해주세요!"
+      label: Function
+      description: Function
+      placeholder: Function
+      value: "Fucntion"
     validations:
       required: true
   - type: textarea
     id: consideration
     attributes:
-      label: 고려사항
-      description: 개발시 고려해야 할 사항
+      label: Consideration
+      description: Consideration
   - type: checkboxes
     id: priority
     attributes:
       label: Priority Label Setting
-      description: Priority Label 지정하셨나요?
+      description: Priority Label?
       options:
-        - label: 네 Priority Label 지정했습니다.
+        - label: Priority Label.
           required: true
   - type: checkboxes
     id: projects
     attributes:
       label: Projects Card
-      description: Project Card 생성하셨나요?
+      description: Project Card?
       options:
-        - label: 네 생성했습니다.
+        - label: Yes Create
           required: true
