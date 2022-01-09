@@ -38,9 +38,9 @@ body:
     id: priority
     attributes:
       label: Priority Label Setting
-      description: Priority Label?
+      description: Priority Label 지정하셨나요?
       options:
-        - label: Priority Label.
+        - label: Priority Label 지정했습니다.
           required: true
   - type: checkboxes
     id: projects
