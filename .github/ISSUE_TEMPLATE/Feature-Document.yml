@@ -17,6 +17,7 @@ body:
       options:
         - User
         - Board
+        - Item
         - ETC
     validations:
       required: true
@@ -34,13 +35,20 @@ body:
     attributes:
       label: 고려사항
       description: 고려해야 할 사항
+  - type: textarea
+    id: todoList
+    attributes:
+      label: 할일목록
+      description: 할일목록을 작성해주세요!
+      placeholder: 할일목록을 작성해주세요!
+      value: "- [ ] TODO"
   - type: checkboxes
     id: priority
     attributes:
       label: Priority Label Setting
       description: Priority Label 지정하셨나요?
       options:
-        - label: 네 Priority Label 지정했습니다.
+        - label: Yes! Priority Label 지정했습니다.
           required: true
   - type: checkboxes
     id: projects
@@ -48,5 +56,5 @@ body:
       label: Projects Card
       description: Project Card 생성하셨나요?
       options:
-        - label: 네 생성했습니다.
+        - label: Yes! 생성했습니다.
           required: true
