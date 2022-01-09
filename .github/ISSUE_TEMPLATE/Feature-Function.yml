@@ -26,7 +26,7 @@ body:
       label: Function
       description: Function
       placeholder: Function
-      value: "Fucntion"
+      value: "Projects Card도 생성해주세요!"
     validations:
       required: true
   - type: textarea
