@@ -40,7 +40,7 @@ body:
       label: Priority Label Setting
       description: Priority Label 지정하셨나요?
       options:
-        - label: 네 Priority Label 지정했습니다.
+        - label: Priority Label 지정했습니다.
           required: true
   - type: checkboxes
     id: projects
