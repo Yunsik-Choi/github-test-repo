@@ -48,5 +48,5 @@ body:
       label: Projects Card
       description: Project Card 생성하셨나요?
       options:
-        - label: Create.
+        - label: 네 Create.
           required: true
